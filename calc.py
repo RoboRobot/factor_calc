@@ -6,6 +6,9 @@ def factor(x):
       list.append(y)
   for a in range (0,(len(list)/2)):
     print("%s,%s" %(list[a],list[len(list)-(a+1)]))
+  
+  if len(list) % 2 == 1:
+    print(int(x**0.5))
     
   print(list)
 
