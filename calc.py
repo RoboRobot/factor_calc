@@ -9,7 +9,7 @@ def factor(x):
     
   print(list)
 
-if len(list) == 2:
-  print("Prime")
+  if len(list) == 2:
+    print("Prime")
   
 factor(90)
